@@ -12,7 +12,7 @@ const AppointmentBanner = ({ selectedDate, setSelectedDate }) => {
             className="rounded-lg shadow-2xl mb-10"
             alt="dentist chair"
           />
-          <div className="lg:mr-10 border rounded-lg shadow-md">
+          <div className="lg:mr-16 border rounded-lg shadow-md">
             <DayPicker
               fromYear={2015}
               toYear={2030}
