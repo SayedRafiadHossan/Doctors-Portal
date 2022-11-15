@@ -13,6 +13,7 @@ const AppointmentOption = ({ appointmentOptions, setTreatment }) => {
         <p>If a dog chews shoes whose shoes does he choose?</p>
         <div className="card-actions justify-center">
           <label
+            disabled={slots.length === 0}
             onClick={() => setTreatment(appointmentOptions)}
             htmlFor="booking-modal"
             className="btn btn-primary text-white"
